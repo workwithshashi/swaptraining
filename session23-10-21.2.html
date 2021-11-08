@@ -1,0 +1,22 @@
+<html>
+    <header>
+        <title>JavaScript Object Creation</title>
+    </header>
+    <body>
+        <p> var a = "Shashi" // Creating an object of type String</p>
+        <p>JS ways to create object</p>
+        <ul>
+            <li><b>var a = new Object();</b> //-> Create empty object</li>
+                        
+            <li><b>var b = Object.create(null);</b></li>
+            
+            <li><b>var c = {}</b></li>
+            
+            <li><b>var d = function(name) <br>{ this.name = name};<br> var e = new d("Navin"); </b></li>
+            
+            <li><b>function obj(){}; <br> obj.prototype.name = "My Name";<br> var f = new obj(); </b></li>
+            
+            <li>var g = new function(){<br> this.name = 'hello';<br> }</li>
+        </ul>
+    </body>
+</html>

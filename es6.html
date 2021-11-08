@@ -1,0 +1,60 @@
+<html>
+    <header><title>ES6 Advance tipics</title></header>
+    <body>
+        <p>ES - ECMA Spript</p>
+        <p> ES - Written Standard of JS</p>
+        
+        <p>var - whenevr a variable is written - Difive a global variable and is accessable within file.</p>
+        <p>
+            var a = 5
+            function parent(){
+                var name = "Shashi";
+                function child(){
+                    alert(name);
+            alert(a);
+                }
+             return child();
+            }
+
+            var b = new parent();
+        </p>
+        <p>let - is accessable with its brackets or function only - it indicated local variable</p>
+        {
+            let a = 'Hello'
+        }
+        console.log(a) //error
+        
+        <p>const - constant -> once assingment is done value cant be changed</p>
+        
+        const name ={
+            fname:'A',
+            lanme:'B'
+        }
+        name
+        {fname: 'A', lanme: 'B'}
+        name.fname
+        'A'
+        name.fname = 'c'
+        'c'
+        name.fname
+        'c'
+        name
+        {fname: 'c', lanme: 'B'}
+        
+        <p>Normal Function</p>
+        <p>
+            function print(){ console.log('I am normal function');}         
+            print()
+        </p>
+        
+        <p> Arrow Function</p>
+        <p>
+            write = () => {console.log('I am arrow function')}// if multi line return
+            () => {console.log('I am arrow function')}
+            write()
+            
+            write = () => console.log('I am arrow function') // if one line return
+            () => console.log('I am arrow function')
+            write()        </p>
+    </body>
+</html>

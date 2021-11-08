@@ -1,0 +1,28 @@
+<html>
+    <header><title>closure</title></header>
+    <body>
+        <p>When a function is able to access properties and behaviour of another function - Closure</p>
+        <p>
+            function parent(){
+                var name = "Swap";
+                function child(){
+                    alert(name);
+                }
+            child();
+            }
+            
+            var a = new parent();
+            
+            
+            function parent(){
+                var name = "Shashi";
+                function child(){
+                    alert(name);
+                }
+             return child();
+            }
+
+            var b = new parent();
+        </p>
+    </body>
+</html>
